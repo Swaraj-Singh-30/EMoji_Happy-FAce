@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.face{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFCC4D;
+    padding: 10px;
+    border-radius: 50%;
+    height: 25vmax;
+    width: 25%;
+    background:#FFCC4D;
+}
+.eye1{
+    border-radius: 150px 150px 0px 0px;
+    position: fixed;
+    left: 30%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    background: #664500;
+    height: 20%;
+    width: 25%;
+    z-index: 1;   
+}
+.over1{
+    border-radius: 150px 150px 0px 0px;
+    position: fixed;
+    left: 30%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background: #FFCC4D;
+    height: 20%;
+    width: 35%;
+    z-index: 2;  
+}
+.eye2{
+    border-radius: 150px 150px 0px 0px;
+    position: fixed;
+    left: 70%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    background: #664500;
+    height: 20%;
+    width: 25%;
+    z-index: 1;   
+}
+.over2{
+    border-radius: 150px 150px 0px 0px;
+    position: fixed;
+    left: 70%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background: #FFCC4D;
+    height: 20%;
+    width: 35%;
+    z-index: 2; 
+}
+.blush1{
+    position: fixed;
+    background: #FF7892;
+    left: 20%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    border-radius: 150px;
+    z-index: 3;
+    height: 32%;
+    width: 32%;
+    opacity: 0.95;
+}
+.blush2{
+    position: fixed;
+    background: #FF7892;
+    left: 80%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    border-radius: 150px;
+    z-index: 3;
+    height: 32%;
+    width: 32%;
+    opacity: 0.95;
+}
+.smile{
+    border-radius: 150px 150px 150px 150px;
+    position: fixed;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: #664500;
+    height: 42%;
+    width: 43%;
+    z-index: 1;  
+   border-bottom: 1px solid #664500;   
+}
+.over3{
+    border-radius: 150px 150px 150px 150px;
+    position: fixed;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    background: #FFCC4D;
+    height: 42%;
+    width: 44%;
+    z-index: 2;
+
+}
