@@ -1,3 +1,6 @@
 # EMoji_Happy-FAce
 
-Make the page responsive 
+This is a CSS ART I made when I was getting started with CSS Art. 
+
+
+## Problems with the code
